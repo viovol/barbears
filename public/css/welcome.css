@@ -1,0 +1,42 @@
+video{
+  min-width: 100%;
+  min-height: 100%;
+}
+.bakcground-wrap{
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#video-bg-element{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content{
+  padding-top: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.content h1{
+
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Old Standard TT', serif;
+  font-size: 70px;
+}
+.content .btn-default{
+  background-color: rgba(245, 245, 245, 0.33);
+  border-color: rgba(245, 245, 245, 0.1);
+  color: white;
+  font-size: 18px;
+  font-family: 'Old Standard TT', serif;
+  padding: 12px 24px;
+}
